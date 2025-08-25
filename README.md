@@ -1,15 +1,34 @@
-# React + Vite
+# Meme Generator (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple meme generator app built with React and Vite—perfect for practicing React fundamentals.
 
-Currently, two official plugins are available:
+## Features
+- Built with React and modern tooling (Vite)
+- Minimal setup supports hot module replacement and ESLint
+- Includes basic React component structure under `src/`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Learning Focus
+Designed to give you hands-on experience with React hooks, especially `useEffect`:
+- Load meme templates via API or static data
+- Use `useEffect` to fetch data on component mount
+- Manage component state with `useState`
 
-## Expanding the ESLint configuration
+## Getting Started
+1. Clone the repo
+2. `npm install`
+3. `npm run dev` to launch locally
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Feel free to extend:
+- Add meme template fetching (e.g., from a public API)
+- Overlay text on images
+- Manage state and side effects using `useState` and `useEffect`
 
 
-Live Server : meme-generator-gules-five.vercel.app
+## Live Demo
+
+Check it out live here: [meme-generator-gules-five.vercel.app](https://meme-generator-gules-five.vercel.app)
+
+# Credits
+
+This project was built by following the **freeCodeCamp React course**.  
+It focuses on learning React hooks, especially `useEffect`, while building a simple meme generator.
